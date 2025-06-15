@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
       // Change background of the clicked button
-      button.style.color = "steelblue";
+      button.classList.toggle("like-color");
     });
   });
 
